@@ -54,10 +54,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 1;
+  transition: 0.7s;
 }
 
 .active.trailer-container {
   visibility: hidden;
+  opacity: 0;
 }
 
 .trailer-container video {
@@ -77,4 +80,5 @@ body {
   top: 30px;
   right: 30px;
   color: white;
+  cursor: pointer;
 }
